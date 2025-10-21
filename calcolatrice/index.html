@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="../portfolio/style.css">
+    <title>Calcolatrice</title>
+</head>
+<body>
+    <div class = "navbar">
+        <div class = "navlinks">
+                <ul>
+                    
+                    <li class = "title"><a href = "#">Calcolatrice Javascript</a></li>
+                    <li><a href = "#">Chi sono</a></li>                    
+                    <li><a href = "#">Progetti</a></li>                    
+                    <li><a href = "#">Competenze</a></li>
+                    <li><a href = "#">Contatti</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class = "calcolatrice">
+        <textarea id = "result" readonly></textarea>
+        <textarea id = "input"  placeholder = "0"></textarea>
+        <div class = "btns">
+            <div class = "row">
+                <button value = "7" onclick = "getInput(this.value)">7</button>
+                <button value = "8" onclick = "getInput(this.value)">8</button>
+                <button value = "9" onclick = "getInput(this.value)">9</button>
+                <button value = "*" onclick = "getInput(this.value)"> * </button>
+            </div>
+            <div class = "row">
+                <button value = "4" onclick = "getInput(this.value)">4</button>
+                <button value = "5" onclick = "getInput(this.value)">5</button>
+                <button value = "6" onclick = "getInput(this.value)">6</button>
+                <button value = "-" onclick = "getInput(this.value)"> - </button>
+            </div>
+            <div class = "row">
+                <button value = "1" onclick = "getInput(this.value)">1</button>
+                <button value = "2" onclick = "getInput(this.value)">2</button>
+                <button value = "3" onclick = "getInput(this.value)">3</button>
+                <button value = "+" onclick = "getInput(this.value)"> + </button>
+            </div>
+            <div class = "row">
+                <button value = "/" onclick = "getInput(this.value)"> / </button>
+                <button value = "0" onclick = "getInput(this.value)"> 0 </button>
+                <button value = "." onclick = "getInput(this.value)"> . </button>
+                <button value = "=" onclick = "getResult()"> = </button>
+            </div>
+        </div>
+        
+    </div>
+    <script src = "./calcolatrice.js"></script>
+</body>
+</html>

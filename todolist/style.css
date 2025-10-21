@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#to-do{
+    margin: 50px auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.task{
+    margin: 2em;
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 500px) {
+    .task {
+        margin: 1em;
+    }
+}
+
+
+.task p{ 
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+#to-do textarea{
+    width: 100%;
+    resize: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+input[type="checkbox"]:checked + p{
+    text-decoration: line-through;
+    color: #b2bec3;
+}
+
+#to-do button{
+    border: none;
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+}
+
+#newT button{
+    border-radius: 20px;
+    display: block;
+}

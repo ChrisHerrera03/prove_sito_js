@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alan Sans", Arial, Helvetica, sans-serif;
+}
+
+.main-content{
+    width: 75%;
+    margin: 0 auto;
+}
+.navbar{
+    font-size: 15px;
+}
+.navlinks{ 
+    background-color: #3498db;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navlinks li{
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.navlinks a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.navlinks li:hover > a{
+    color: white;
+    background-color: #2980b9;
+    border-bottom: 1px solid;
+    transition: color 0.3s, background-color 0.3s, border-bottom 0.3s;
+}
+
+.navlinks .title{
+    margin-right: auto; 
+}
+
+.navlinks .title a{
+    font-size: 32px;
+}
+.content{
+    margin: 20px 0;
+}
+.progetto{
+    display: inline-block;
+    width: 30%;
+    margin: 5px 15px;
+    border: 2px solid 
+}
+
+.progetto .descrizione{
+    background-color: #e17055;
+    color: white;
+}

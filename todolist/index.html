@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO list</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="../portfolio/style.css">
+</head>
+<body onload="getListTask()">
+    <div class = "navbar"> 
+            
+            <div class = "navlinks">
+                <ul>
+                    
+                    <li class = "title"><a href = "#">TO-DO list</a></li>
+                    <li><a href = "#">Chi sono</a></li>                    
+                    <li><a href = "#">Progetti</a></li>                    
+                    <li><a href = "#">Competenze</a></li>
+                    <li><a href = "#">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class = "main-content">
+            <div id = "to-do">
+                <button onclick = "mostra('newT')" id = "add">+</button>
+                <div id = "newT">
+                    <textarea id = "task_description" placeholder = "Inserire la descrizione di questo nuovo task">dgd</textarea>
+                    <button onclick = "createNew()">Inserisci</button>
+                </div>
+                <h2> Attività da svolgere: </h2>
+            </div>
+        </div>
+        <script src= "todolist.js"></script>
+</body>
+</html>
