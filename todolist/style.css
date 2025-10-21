@@ -2,12 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 #to-do{
     margin: 50px auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .task{
@@ -47,9 +48,11 @@ input[type="checkbox"]:checked + p{
     font-size: 15px;
     background-color: orange;
     color: white;
+    margin: 1rem 0;
 }
 
-#newT button{
-    border-radius: 20px;
-    display: block;
+#edit button{
+    border-radius: 10px;
 }
+
+#edit #eliminare{ background-color: #d63031;}
