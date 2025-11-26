@@ -1,0 +1,4 @@
+ERROR: connection failed
+INFO: process started
+WARNING: low memory
+ERROR: timeout

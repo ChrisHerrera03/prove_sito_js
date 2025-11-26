@@ -1,0 +1,10 @@
+{
+  "product": {
+    "name": "Laptop",
+    "price": 1200,
+    "specs": {
+      "cpu": "i7",
+      "ram": "16GB"
+    }
+  }
+}
